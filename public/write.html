@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLOG</title>
+
+  <!-- CKEditor5 CDN SCRIPT -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/32.0.0/classic/ckeditor.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="write.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="menu-btn">메뉴버튼</div>
+      <h1>
+        <a href="/">BLOG</a>
+      </h1>
+      <div class="search-btn">검색버튼</div>
+    </nav>
+  </header>
+
+  <form action="">
+    <div class="form-title">
+      <h2>게시글 작성</h2>
+      <div class="form-btn">
+        <button type="submit" id="uploadBtn">등록</button>
+        <button>취소</button>
+      </div>
+    </div>
+
+    <div class="form-select">
+      <label for="category-select"></label>
+      <select name="category" id="category-select">
+        <option selected disabled="disabled" value="카테고리 선택">카테고리 선택</option>
+        <option id="스터디" value="스터디">스터디</option>
+        <option id="일기" value="일기">일기</option>
+        <option id="맛집일기" value="맛집일기">맛집일기</option>
+        <option id="내돈내산후기" value="내돈내산 후기">내돈내산 후기</option>
+      </select>
+
+      <label for="open-select"></label>
+      <select name="open" id="open-select">
+        <option id="공개" value="공개" selected="selected">공개</option>
+        <option id="비공개" value="비공개">비공개</option>
+      </select>
+    </div>
+
+    <input type="text" placeholder="제목" id="title">
+    <div id="editor"></div>
+    <input type="text" placeholder="#해시태그" id="hashtag">
+  </form>
+</body>
+<script src="./firebase.js" type="module"></script>
+<script src="ckeditor.js"></script>
+
+
+</html>

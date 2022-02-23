@@ -1,0 +1,29 @@
+form {
+	background: #fff;
+	margin: 0 50px;
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+form > * {
+	margin: 5px 0;
+}
+
+form .form-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+form .form-select {
+	display: flex;
+}
+
+form #category-select {
+	flex: 3;
+}
+
+form #open-select {
+	flex: 1;
+}

@@ -1,0 +1,54 @@
+section {
+	margin: 0 50px;
+}
+
+section article {
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+section article .post-profile {
+	display: flex;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 10px 0;
+}
+
+section article .post-profile img {
+	margin-right: 10px;
+}
+
+section article .post {
+	text-align: center;
+	padding: 10px 0;
+}
+
+section article .post .category {
+	color: #979797;
+}
+
+section article .post .title {
+	font-weight: bold;
+}
+
+section article .post .hashtag {
+	color: #27a3ca;
+}
+
+section article .post .description {
+	padding-top: 10px;
+}
+
+section article .post-footer {
+	border-top: 1px solid #e5e5e5;
+	padding: 10px 0;
+	display: flex;
+}
+
+section article .post-footer .post-like {
+	margin-right: 10px;
+}
+
+section article .post-footer .post-comment {
+	margin-right: 10px;
+}

@@ -5,11 +5,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>BLOG</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
+  <header>
+    <nav>
+      <div class="menu-btn">메뉴버튼</div>
+      <h1>
+        <a href="/">BLOG</a>
+      </h1>
+      <div class="search-btn">검색버튼</div>
+    </nav>
+  </header>
+  <section>
+    <article>
+      <div class="post-profile">
+        <img src="" alt="프로필 이미지">
+        <div class="user-name">사용자 이름</div>
+      </div>
+      <div class="post">
+        <div class="category">카테고리</div>
+        <div class="title">게시글 제목</div>
+        <div class="hashtag">#해시 #태그 #부분</div>
+        <div class="description">본문 부분</div>
+      </div>
+      <div class="post-footer">
+        <div class="post-like">
+          <img src="" alt="좋아요 수">
+          <span>123</span>
+        </div>
+        <div class="post-comment">
+          <img src="" alt="댓글 수">
+          <span>456</span>
+        </div>
+      </div>
+    </article>
+  </section>
 </body>
 <script src="./firebase.js" type="module"></script>
 
